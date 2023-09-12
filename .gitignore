@@ -1,0 +1,9 @@
+WhileAnidado.csproj
+WhileAnidado.sln
+WhileAnidado.suo
+.gitattributes
+Properties/
+bin/
+obj/
+App.config
+.vs/
