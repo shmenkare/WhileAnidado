@@ -9,17 +9,15 @@ namespace WhileAnidado
         static void Main(string[] args)
         {
             int n = 1;
-            char ab = ' ';
-
-
+            
             while(n<=5)
             {
-                ab = 'a';
-            Console.Write(n);
-                n++;
-
-                //Console.Write(ab);
                
+               Console.Write(n);
+             //Console.Write(ab);
+                
+                char ab = 'a';
+                
                 while (ab <= 'z')
                 {
                     Console.Write(ab);
@@ -27,7 +25,7 @@ namespace WhileAnidado
 
                 }
                 Console.WriteLine();
-            
+                n++;
             }
             Console.ReadKey();
         }
